@@ -6,5 +6,5 @@ with open("requirements.txt", "r") as f:
 setup(
     name = "library", 
     packages = find_packages(),
-    install_requires=requirements,
+    # install_requires=requirements,
 )
